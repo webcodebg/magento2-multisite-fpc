@@ -1,6 +1,6 @@
 {
     "name": "webcode/module-multisite-fpc",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "Makes multi-website Magento installations cacheable again for first-time visitors: scopes the HTTP context defaults (store, currency) to the current website, so non-default websites stop emitting X-Magento-Vary on every guest request and the official 2.4.6+ Varnish VCL cache-poisoning guard no longer marks every cookieless request hit-for-pass.",
     "type": "magento2-module",
     "license": ["OSL-3.0", "AFL-3.0"],
